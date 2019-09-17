@@ -20,3 +20,9 @@ function myFunction() {
       timeLeft--;
     }
   }
+
+
+  psuedo
+  // once the last button has been pressed it splits into to buttons
+  // click the most buttons to get to a high score
+  
