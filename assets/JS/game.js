@@ -1,5 +1,5 @@
 // these are the answers
-let answerKey = ["Answer1","Answer2","Answer3"]
+var answerKey = ["Answer1","Answer2","Answer3"]
 
 function myFunction() {
     var a = answerKey.indexOf("Answer1");
@@ -19,6 +19,20 @@ function myFunction() {
       elem.innerHTML = timeLeft + ' seconds remaining';
       timeLeft--;
     }
+  }
+
+  // on click make a box
+
+  var boxinator = function boxy() {
+
+
+  }
+
+  // this creates a button
+  function myButton() {
+    var btn = document.createElement("BUTTON");
+    
+    document.body.appendChild(btn);
   }
 
 
